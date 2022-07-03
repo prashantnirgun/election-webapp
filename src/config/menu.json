@@ -1,0 +1,144 @@
+[
+  {
+    "label": "Home",
+    "icon": "home",
+    "to": "/test",
+    "level": 1
+  },
+  {
+    "label": "Master",
+    "icon": "menu_book",
+    "level": 0.5,
+    "children": [
+      {
+        "label": "Companies",
+        "icon": "business",
+        "to": "/company",
+        "level": 5
+      },
+      {
+        "label": "Products",
+        "icon": "redeem",
+        "to": "/products",
+        "level": 1
+      },
+      {
+        "label": "Unit",
+        "icon": "straighten",
+        "to": "/unit",
+        "level": 1
+      },
+      {
+        "label": "Price List",
+        "icon": "playlist_add",
+        "to": "/quotation",
+        "level": 1
+      },
+      {
+        "label": "Party Price List",
+        "icon": "playlist_add_check",
+        "to": "/quotation-party",
+        "level": 1
+      },
+      {
+        "label": "GST Rates",
+        "icon": "content_cut",
+        "to": "/gst-rate",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Category",
+    "icon": "account_balance",
+    "level": 0.5,
+    "children": [
+      {
+        "label": "General Ledger",
+        "icon": "view_headline",
+        "to": "/general-ledger",
+        "level": 1
+      },
+      {
+        "label": "Account Group",
+        "icon": "view_list",
+        "to": "/account-group",
+        "level": 1
+      },
+      {
+        "label": "Account Head",
+        "icon": "view_module",
+        "to": "/account-head",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Security",
+    "icon": "security",
+    "level": 0.5,
+    "children": [
+      {
+        "label": "Company",
+        "icon": "business",
+        "to": "/company",
+        "level": 1
+      },
+      {
+        "label": "User",
+        "icon": "person",
+        "to": "/user",
+        "level": 1
+      },
+      {
+        "label": "User Group",
+        "icon": "group",
+        "to": "/user-group",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Contact Us",
+    "icon": "location_on",
+    "to": "/contact",
+    "level": 1
+  },
+  {
+    "label": "Unlock Code",
+    "icon": "lock_open",
+    "to": "/unlock-code",
+    "level": 1
+  },
+  {
+    "label": "Receipt",
+    "icon": "receipt",
+    "to": "/receipt",
+    "level": 1
+  },
+  {
+    "label": "Settings",
+    "icon": "settings",
+    "level": 0.5,
+    "children": [
+      {
+        "label": "Area of Operation",
+        "icon": "add_location",
+        "to": "/countries",
+        "level": 1
+      },
+      {
+        "label": "Device Info",
+        "icon": "important_devices",
+        "to": "/test",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Login",
+    "icon": "login",
+    "to": "/authentication",
+    "level": 1
+  }
+]
